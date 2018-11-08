@@ -1,0 +1,200 @@
+body {
+    width: 2000px;
+    font-family: Lato, Helvetica, sans-serif;
+}
+
+li a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.cookies-wrapper {
+    /* Style for "Prostokąt" */
+
+    height: 72px;
+    background-color: #194277;
+}
+
+.cookies {
+    /* Style for "This site" */
+    width: 346px;
+    height: 12px;
+    margin-left: 745px;
+    opacity: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #ffffff;
+}
+
+#button-cookies-accept {
+    /*Style for Prostokąt - button-cookies-accept*/
+    margin: 20px 20px;
+    width: 112px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    color: #194277;
+}
+
+header {
+    height: 872px;
+    /*background-color: #3695ff;*/
+    background-image: linear-gradient(51deg, #3695ff 0%, #3564fc 100%);
+    background-clip: text;
+}
+
+.navigation {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+.dropdown-list-button {
+    display: block;
+    float: right;
+    margin-right: 407px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0);
+    border: rgba(0, 0, 0, 0);
+
+}
+
+.nav-dropdown-content {
+    display: none;
+    margin-top: 50px;
+    margin-right: 457px;
+    line-height: 20px;
+}
+
+.nav-dropdown-content li a {
+    position: relative;
+    color: #ffffff;
+}
+
+.navigation:hover .nav-dropdown-content {
+    display: block;
+    transition: 0.5s opacity;
+}
+
+.elipsa-wrapper {
+    display: block;
+    margin: auto;
+    padding-top: 115px;
+    width: 185px;
+    height: 185px;
+}
+
+.head-of-the-side {
+    margin-left: 595px;
+    width: 809px;
+    height: 98px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Lato - Black";
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 1.25px;
+}
+
+.lorem-ipsum {
+    /* Style for "Lorem ipsu" */
+    margin-left: 595px;
+    padding-top: 100px;
+    width: 765px;
+    height: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+#hire-me {
+    /* Style for "hire me" */
+    margin-left: 899px;
+    margin-top: 75px;
+    width: 205px;
+    height: 55px;
+    border-radius: 28px;
+    color: #3695ff;
+    background-color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.vektor {
+    margin-top: 114px;
+    margin-left: 991px;
+    width: 19px;
+    height: 32px;
+    opacity: 0.4;
+}
+
+h2 {
+    /*
+
+    font-size: 46px;
+    letter-spacing: 1.25px;*/
+    margin-top: 50px;
+    margin-left: 895px;
+    height: 38px;
+    color: #3677fd;
+    font-family: Lato;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+#about-me p {
+    width: 1067px;
+    height: 85px;
+    margin-left: 467px;
+    padding-top: 50px;
+    color: #5a5a5a;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+footer {
+    display: block;
+    padding-top: 50px;
+    margin:20px;
+    background-image: linear-gradient(51deg, #3695ff 0%, #3564fc 100%);
+    text-align: center;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 65px;
+    width: 100%;
+    padding: 30px 0;
+}
+
+#footer-button-hire-me {
+    width: 205px;
+    height: 55px;
+    float: right;
+    margin-right: 300px;
+    border-radius: 28px;
+    color: #3695ff;
+    background-color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
